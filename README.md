@@ -9,6 +9,26 @@ This dataset compiles and harmonizes multiple open smart meter datasets.
 This smart meter dataset facilitates primarily electricity demand forecasting.
 
 **Dataset Structure**
+
+license: bsd-3-clause
+task_categories:
+  - time-series-forecasting
+language:
+  - en
+tags:
+  - energy
+  - electricity
+  - forecasting
+  - clustering
+pretty_name: Electricity Demand Dataset
+configs:
+  - config_name: demand
+    data_files: data/demand.parquet
+  - config_name: metadata
+    data_files: data/metadata.parquet
+  - config_name: weather
+    data_files: data/weather.parquet
+    
 ## The dataset contains three main files.
 
 data/demand.parquet
